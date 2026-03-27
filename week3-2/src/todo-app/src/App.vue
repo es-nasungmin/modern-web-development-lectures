@@ -1,6 +1,4 @@
-<script setup>
-import { Button } from 'primevue'
-</script>
+<script setup></script>
 
 <template>
   <h1>You did it!</h1>
