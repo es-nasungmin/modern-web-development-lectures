@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week2-2", "week2-2", "{6370D845-0C8F-9C76-27F0-839502388205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week2-1", "week2-1", "{95543070-E1D3-4D22-2FC6-2C2A2C26A2C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B081644-C864-F5F5-E699-2D8B9FD61FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsSecrets.Day2", "week2-2\src\EsSecrets.Day2\EsSecrets.Day2.csproj", "{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85AF3347-F29D-B71F-2530-FE535395FD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsSecrets.Day1", "week2-1\src\EsSecrets.Day1\EsSecrets.Day1.csproj", "{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B081644-C864-F5F5-E699-2D8B9FD61FC1} = {6370D845-0C8F-9C76-27F0-839502388205}
+		{7842F2E6-F5CD-D0E4-BEE9-F2347C91886F} = {8B081644-C864-F5F5-E699-2D8B9FD61FC1}
+		{85AF3347-F29D-B71F-2530-FE535395FD48} = {95543070-E1D3-4D22-2FC6-2C2A2C26A2C5}
+		{29CAACE5-7A7C-AD85-4BA2-346DB7F4BB6B} = {85AF3347-F29D-B71F-2530-FE535395FD48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56736AAA-90E7-4A85-8ACA-427B9D0C719C}
+	EndGlobalSection
+EndGlobal
